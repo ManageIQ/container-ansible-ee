@@ -2,6 +2,8 @@
 
 Container for the ManageIQ Ansible Execution Environment for use by Embedded Ansible.
 
+[![CI](https://github.com/ManageIQ/container-ansible-ee/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/ManageIQ/container-ansible-ee/actions/workflows/ci.yaml)
+
 ## Building
 
 ```sh
