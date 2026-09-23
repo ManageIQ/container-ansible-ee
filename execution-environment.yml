@@ -10,7 +10,7 @@ dependencies:
   python:
   - pywinrm
   - aiobotocore>=3.9.0 # Set a higher minimum to avoid excessive backtracking for aws packages
-  - boto3==1.43.56 # Pin to avoid excessive backtracking for aws packages
+  - boto3>=1.43.56 # Set a higher minimum to avoid excessive backtracking for aws packages
   system:
   - git-core # For ansible-galaxy installing from git repositories
   - python3-devel [compile] # For compiling ovirt-engine-sdk-python
